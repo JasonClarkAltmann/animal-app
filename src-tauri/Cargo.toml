@@ -1,5 +1,5 @@
 [package]
-name = "dog-app"
+name = "animal-app"
 version = "0.1.0"
 description = "A Tauri App"
 authors = ["you"]

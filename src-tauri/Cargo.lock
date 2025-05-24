@@ -57,6 +57,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "animal-app"
+version = "0.1.0"
+dependencies = [
+ "dotenv",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-opener",
+]
+
+[[package]]
 name = "anyhow"
 version = "1.0.98"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -790,19 +803,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.101",
-]
-
-[[package]]
-name = "dog-app"
-version = "0.1.0"
-dependencies = [
- "dotenv",
- "reqwest",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-opener",
 ]
 
 [[package]]
